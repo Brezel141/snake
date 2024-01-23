@@ -7,6 +7,7 @@ import random
 dis_height = 500
 dis_width = 500
 display_surf = pg.display.set_mode([dis_height,dis_width])
+pg.display.set_caption("Snake")
 window = 1000
 tile_size = 50
 range_vals = (tile_size // 2, window - tile_size // 2, tile_size)
